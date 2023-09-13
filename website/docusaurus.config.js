@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'HackZurich 2023 - Microsoft Azure Landing Page',
-  tagline: 'Build awesome stuff with Microsoft Azure OpeAI Services',
+  tagline: 'Build awesome stuff with Microsoft Azure OpenAI Services',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -64,24 +64,34 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.jpg',
       navbar: {
-        title: 'HackZurich 2023',
+        title: 'Microsoft @ HackZurich 2023',
         logo: {
           alt: 'MSFT + HackZurich Logo',
           src: 'img/hackzurich2023.png',
         },
         items: [
           {
+            label: 'Getting Started',
+            position: 'left',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            label: 'Blog',
+            position: 'left',
+            to: '/blog',
+          },
+          {
             label: 'GitHub',
             position: 'right',
+            href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
           },
+          {
+            label: 'GitHub',
+            position: 'right',
+            href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
+          },
+
         ],
       },
       footer: {
@@ -91,25 +101,25 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Getting Started',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Community support',
             items: [
               {
+                label: 'Microsoft Teams - Channel',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/azure',
               },
               {
                 label: 'Discord',
                 href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
@@ -122,12 +132,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
               },
             ],
           },
         ],
-        copyright: `Thanks to all contributors - ${new Date().getFullYear()}. Built with Docusaurus.`,
+        copyright: `MIT License. Made with LOVE in ${new Date().getFullYear()} by the contributors. Built with Docusaurus`,
       },
       prism: {
         theme: lightCodeTheme,
