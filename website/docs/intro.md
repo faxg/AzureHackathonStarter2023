@@ -2,46 +2,50 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to our  **HackZurich 2023**.
+The Microsoft team wishes all Hackers a great experience - we'd love to see what great ideas you'll come up with.
 
-## Getting Started
+Our team is here to discuss tech with you, give feedback on your ideas and your pitch etc.
 
-Get started by **creating a new site**.
+:::tip
+This website my be updated during the event. Check back often, we'll announce major updates on Discord channel. 
+:::
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+### How to find us
+Our tech team should be at the booth most of the time, see:
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+### Discord
+Make sure you have accepted the server invite: (https://discord.gg/eVz4z2Vd)
+[Discord channel](https://discord.com/channels/1118186310478336011/1148914041444630568)
 
-```bash
-npm init docusaurus@latest my-website classic
-```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Our Team
+Our team of experts are here to support you during the whole weekend - in-person or remotely via our [Discord channel](https://discord.com/channels/1118186310478336011/1148914041444630568)
 
-## Start your site
+| Who | What ? |
+|-----|--------|
+| [Florian Georg](https://www.linkedin.com/in/fgeorg/) | how to build innovative Apps, on Azure |
+| | |
 
-Run the development server:
 
-```bash
-cd my-website
-npm run start
-```
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+## Schedule
+See HackZurich Schedule here: https://hackzurich.com/schedule
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
+## Getting Started with Azure Passes
+Want to get an Azure Pass - 150$ to test (most) services on Azure?
+Come to our booth, or ping us on Discord to get register for a voucher code (while supply lasts).
+
+For instructions, [go here](/docs/azure/azurepasses).
+
+
+

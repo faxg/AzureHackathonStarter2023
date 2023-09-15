@@ -4,7 +4,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-azuretools.vscode-azurestaticwebapps",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"ms-azuretools.vscode-azurestorage"
 			]
 		}
 	}
