@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  // url: 'https://green-stone-0a07a7303.3.azurestaticapps.net/',
+   url: 'https://polite-water-08501fe03.3.azurestaticapps.net/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -152,7 +152,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
+                href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/BisonInnovationDays2023/',
               },
 
             ],
