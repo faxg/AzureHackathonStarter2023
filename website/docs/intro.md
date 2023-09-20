@@ -25,9 +25,9 @@ Our tech team should be at the booth most of the time. See you around.
 
 ## Getting Started with Azure Passes
 Want to get an **Azure Pass** - 150$ to test (most) services on Azure?
-Come to our booth, or ping us on Discord to get register for a voucher code (while supply lasts).
+Come to our booth, or ping us on Teams to get register for a voucher code (while supply lasts). You will need a GitHub account.
 
-For instructions, [go here](/docs/azure/azurepasses).
+For instructions, [go here](/docs/azurepasses).
 
 
 

@@ -1,6 +1,7 @@
 {
   "label": "Build on Azure Cloud",
   "position": 2,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "Learn how to build awesome AI apps on the Microsoft Azure Cloud"
