@@ -1,6 +1,7 @@
-# HackZurich - 2023
+# Bison Innovation Days - 2023
+20.09.2023
 
-Website for HackZurich 2023
+Website for Bison Innovation Days 2023
 
 JAM stack:
 - Website: Azure Static Web App (SWA)

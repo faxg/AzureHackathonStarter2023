@@ -6,12 +6,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Microsoft @ HackZurich 2023',
+  title: 'Microsoft @ Bison Innovation Days 2023',
   tagline: 'Build awesome stuff with Microsoft Azure Cloud',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://green-stone-0a07a7303.3.azurestaticapps.net/',
+  // url: 'https://green-stone-0a07a7303.3.azurestaticapps.net/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'faxg', // Usually your GitHub org/user name.
-  projectName: 'hackzurich2023', // Usually your repo name.
+  projectName: 'bisoninnovationdays2023', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/website',
+            'https://github.com/faxg/AzureHackathonStarter2023/tree/BisonInnovationDays2023/website',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/website',
+            'https://github.com/faxg/AzureHackathonStarter2023/tree/BisonInnovationDays2023/website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,10 +64,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/social-card.jpg',
       navbar: {
-        title: 'Microsoft @ HackZurich 2023',
+        title: 'Microsoft @ Bison Innovation Days 2023',
         logo: {
-          alt: 'MSFT + HackZurich Logo',
-          src: 'img/hackzurich2023.png',
+          alt: 'MSFT + Bison Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -76,20 +76,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'mainSidebar',
           },
-          // {
-          //   label: 'Blog',
-          //   position: 'left',
-          //   to: '/blog',
-          // },
-          // {
-          //   label: 'GitHub',
-          //   position: 'right',
-          //   href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
-          // },
           {
             label: 'GitHub',
             position: 'right',
-            href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/hackzurich2023/',
+            href: 'https://github.com/faxg/AzureHackathonStarter2023/tree/BisonInnovationDays2023/',
           },
 
         ],
@@ -126,7 +116,7 @@ const config = {
               },
               {
                 label: 'Microsoft.Source Newsletter',
-                href: 'https://aka.ms/hackzurich2022-newsletter',
+                href: 'https://aka.ms/newsletter-BisonInnovationDays2023',
               },
 
 
@@ -136,12 +126,8 @@ const config = {
             title: 'Community support',
             items: [
               {
-                label: 'HackZurich 2023 Discord - #Microsoft Channel',
-                href: 'https://discord.com/channels/1118186310478336011/1148914041444630568',
-              },
-              {
-                label: 'Microsoft Teams Channel - (internal)',
-                href: 'https://teams.microsoft.com/l/channel/19%3A12a6fd7503844e88bbcabb304ae19154%40thread.tacv2/HackZurich%202023?groupId=52cc3d12-d6c1-49b0-8481-76a1e884a9f8&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47',
+                label: 'Microsoft Teams Channel',
+                href: 'https://bing.com',
               },
               {
                 label: 'Microsoft Tech Community',
@@ -157,16 +143,12 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'HackZurich 2023 Location (Oerlikon, Halle 550',
+                label: 'Location (Bison HQ)',
                 href: 'https://www.google.com/maps/place/Halle+550/@47.4117193,8.5350726,17z/data=!3m1!4b1!4m6!3m5!1s0x479aa11aa6af0dcf:0xb29f6dc832ab4bab!8m2!3d47.4117158!4d8.5399435!16s%2Fg%2F11ddwnt4gz?entry=ttu'
               },
               {
-                label: 'HackZurich 2023 Schedule',
-                href: 'https://hackzurich.com/schedule',
-              },
-              {
-                label: 'HackZurich 2023 Guide',
-                href: 'https://hackzurich-2023.notion.site/HackZurich-2023-Guide-6d36b4ec5db44232bdb7b34cc0e40458',
+                label: 'Innovation Day 2023 Schedule',
+                href: 'https://bing.com/schedule',
               },
               {
                 label: 'GitHub',

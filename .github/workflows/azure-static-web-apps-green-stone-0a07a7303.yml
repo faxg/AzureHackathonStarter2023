@@ -3,11 +3,11 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - hackzurich2023
+      - BisonInnovationDays2023
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - hackzurich2023
+      - BisonInnovationDays2023
 
 jobs:
   build_and_deploy_job:
